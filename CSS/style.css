@@ -1,0 +1,58 @@
+/* ************************* */
+#btn {
+  width: 96px;  
+  height: 48px;
+  font-size: 24px;
+}
+
+/* ************************* */
+.buttons-container {
+    display: grid;
+    width: 75%;
+    align-items: center;
+    grid-template-columns: repeat(3, 48px);
+}
+
+.buttons-container > button {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+/* ************************* */
+/* main {
+    width: 33%;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+#res {
+    height: 48px;
+    background-color: lightgray;
+    border: solid;
+    font-size: 20px;
+}
+
+.btns {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(4,1fr) ;
+}
+
+.btns > button {
+    width       : 25%;
+    height      : 36px;
+    font-size   : 18px;
+    margin      : 0px;
+    float       : left;
+}
+
+#btnClr, #btnEql {
+    color: white;
+    background-color: darkgreen;
+}
+
+#btnSum, #btnSub, #btnMul, #btnDiv {
+    color: red;
+    background-color: black;
+} */
